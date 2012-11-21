@@ -1,0 +1,23 @@
+License: The MIT License (MIT)
+Author: Mohamed Amine SEBBANE
+Contact: adnmaster@hotmail.fr
+
+Download necessary dependencies from nuget.org, or -on build- by enabling NuGet Package Restore.
+All dependencies are available from nuget.org web service.
+
+<Packages>
+----    ----    ----    ----
+-Install-Package RDP.Interfaces
+-Install-Package RDP.Client
+
+----    ----    ----    ----
+Install-Package RDP.Interfaces
+.
+.
+.
+
+----    ----    ----    ----
+Install-Package RDP.Interfaces
+.
+.
+.

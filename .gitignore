@@ -1,0 +1,8 @@
+# Folders
+obj/
+bin/
+
+# Files
+*.user
+*.suo
+*.json

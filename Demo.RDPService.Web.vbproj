@@ -145,6 +145,7 @@
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="AppCode\DocumentsMap.vb" />
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
@@ -164,8 +165,9 @@
     </Compile>
     <Compile Include="Demos\FullTextSearch.aspx.vb">
       <DependentUpon>FullTextSearch.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="AppCode\Data Sources\TopicListDataSource.vb" />
     <Compile Include="Demos\TopicModeling.aspx.designer.vb">
       <DependentUpon>TopicModeling.aspx</DependentUpon>
     </Compile>
@@ -202,7 +204,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Server Scripts\RDPGateway.vb" />
+    <Compile Include="AppCode\RDPGateway.vb" />
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
@@ -210,7 +212,7 @@
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="App_Code\DataSource\DocumentStruct.vb" />
+    <Compile Include="AppCode\Data Sources\DocumentListDataSource.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

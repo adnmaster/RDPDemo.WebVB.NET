@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="About RDP Demo Project" Language="vb" MasterPageFile="~/Site.Master"
-    AutoEventWireup="false" CodeBehind="About.aspx.vb" Inherits="About" %>
+    AutoEventWireup="false" CodeBehind="About.aspx.vb" Inherits="RDPDemo.About" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -7,15 +7,19 @@
     <h2>
         About
     </h2>
+    <h4>
+        Real Data Project Demo
+    </h4>
     <p>
-      <h4> Real Data Project Demo
-      </h4>
-       <br />
-       To concise a general-purpose demonstration, this demo illustrates
-        only a basic use of the RDP API. For scenarios that are more sophisticated there
-        is <a href="http://adnmaster.apphb.com/reference">documentation at our website</a>.
+        This demo illustrates the basic use of the RDP API.<br />
+        All data is read-only and hosted under the free plan.
     </p>
-   <%-- <p>
+    <p>
+        Seeking to concise a general-purpose demonstration some features may not be addressed.<br />
+        For scenarios that are more sophisticated there is <a href="http://adnmaster.apphb.com/reference">
+            documentation at our website</a>.
+    </p>
+    <%-- <p>
         To learn more about ASP.NET visit <a href="http://www.asp.net" title="ASP.NET Website">
             www.asp.net</a>.
     </p>

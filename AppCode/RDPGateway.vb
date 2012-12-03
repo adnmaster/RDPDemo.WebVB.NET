@@ -3,8 +3,8 @@ Imports RDP.Client
 
 Public Class RDPGateway
 
-	Private Shared _RDPClient As RDP.Client.RDPClient
-	Shared ReadOnly Property RDPClient As RDP.Client.RDPClient
+	Private Shared _RDPClient As V1.RDPClient
+	Shared ReadOnly Property RDPClient As V1.RDPClient
 		Get
 
 			If _RDPClient Is Nothing Then
@@ -52,7 +52,7 @@ Public Class RDPGateway
 		 RDPMashapePublicKey, RDPMashapePrivateKey, RDPUsername, RDPVerificationKey,
 		  False, RDPMashapeClient.Proxy.Test, ProductionProxy, TestProxy)
 
-		_RDPClient = New RDP.Client.RDPClient(MashapeClient)
+		_RDPClient = New V1.RDPClient(MashapeClient)
 
 
 	End Sub
@@ -69,7 +69,7 @@ Public Class RDPGateway
 		Dim MashapeClient As New RDP.Client.RDPMashapeClient(
 		 RDPMashapePublicKey, RDPMashapePrivateKey, RDPUsername, RDPVerificationKey)
 
-		_RDPClient = New RDP.Client.RDPClient(MashapeClient)
+		_RDPClient = New V1.RDPClient(MashapeClient)
 
 	End Sub
 

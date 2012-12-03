@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="vb" MasterPageFile="~/Site.Master" AutoEventWireup="false"
-    CodeBehind="Default.aspx.vb" Inherits="_Default" %>
+    CodeBehind="Default.aspx.vb" Inherits="RDPDemo._Default" %>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>

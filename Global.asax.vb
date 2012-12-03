@@ -5,7 +5,10 @@ Public Class Global_asax
 
     Sub Application_Start(ByVal sender As Object, ByVal e As EventArgs)
 
-		RDP.Client.LatentCache.SlidingExpiration = TimeSpan.FromDays(1)
+		My.Application.ChangeCulture("en-US")
+		My.Application.ChangeUICulture("en-US")
+
+		RDP.Client.LatentCache.SlidingExpiration = TimeSpan.FromHours(1)
 		RDP.Client.LatentCache.HostedEnvironment = True
 
     End Sub

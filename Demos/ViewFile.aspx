@@ -5,7 +5,7 @@
     
     <asp:Label ID="DocContent" Text="<Content>" runat="server" />
     
-    <asp:LinkButton ID="DownloadDoc2"  Visible="false" runat="server"
+    <asp:LinkButton ID="DownloadDoc2"   runat="server"
         Text="Download Document" />
 
 </asp:Content>
